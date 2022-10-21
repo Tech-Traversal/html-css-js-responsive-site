@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --pink: #FC5C7D;
+    --purple: #6A82FB;
+    --orange: #FF4E50;
+}
+
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #302b63;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+.logo{
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.logo h1{
+    font-size: 4vw;
+    color: #fff;
+}
+.logo-span{
+    color: var(--orange);
+}
+.logo:hover{
+    background-color: #0f0c29;
+}
+.logo:hover h1{
+    color: var(--orange);
+}
+.logo:hover .logo-span{
+    color: #fff;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 1px solid var(--orange);
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #0f0c29;
+    border-radius: 8px;
+}
+
+.link a{
+    color: #fff;
+    font-size: 1.4vw;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.link a:hover{
+    transform: translateY(-8px);
+    color: var(--orange);
+}
+
+.active{
+    border-bottom: 2px solid var(--orange);
+}
+
+#scrollBtn{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    background-color: var(--purple);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 8px;
+    opacity: 0.6;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    transition: all 0.4s;
+}
+#scrollBtn:hover{
+    background-color: var(--orange);
+    opacity: 1;
+}

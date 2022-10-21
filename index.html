@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/coding.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Tech Traversal</title>
+</head>
+<body>
+    <header class="header center">
+        <div class="logo">
+            <h1 onclick="window.location.href='index.html'"><span class="logo-span">T</span> T</h1>
+        </div>
+        <div class="link">
+            <a href="index.html" class="active">Home</a>
+            <a href="#services">Technology</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a class="more" onclick="showMoreLinks()" id="moreBtn"><i class="fas fa-bars"></i></a>
+        </div>
+    </header>
+    <section class="responsive-header center" id="resHead">
+        <div class="responsive-link">
+            <a href="index.html" class="active">Home</a>
+            <a href="#services">Technology</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </section>
+
+    <section class="banner center">
+        <div class="banner-img-div">
+            <img src="images/coding.png" class="banner-img"/>
+        </div>
+        <div class="banner-info">
+            <h1><span style="color: #fff;">T</span>ech <span style="color: #fff;">T</span>raversal </h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia commodi nisi, ullam quam id, blanditiis atque expedita sapiente in architecto minus doloribus quis natus deserunt repellendus nostrum eius consectetur. Architecto?</h3>
+            <div class="banner-btn-div">
+                <button class="start-btn"><a href="register.html" style="text-decoration: none; color: #fff;"><i class="fas fa-play"></i> Get Started</a></button>
+                <button class="login-btn"><a href="register.html" style="text-decoration: none; color: #fff;"><i class="fas fa-key"></i> Login</a></button>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax">
+        <img src="images/waves.png" class="upper-img">
+        <h1>Productive Digitalization</h1>
+        <img src="images/waves2.png" class="lower-img">
+    </div>
+    <h1 class="services" id="services"><span style="color: #fff;">T</span>echnology <span style="color: #fff;">W</span>e <span style="color: #fff;">U</span>se</h1>
+    <div class="cards-div center">
+        <div class="card">
+            <h1>React</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/react.png">
+        </div>
+        <div class="card">
+            <h1>Node</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/nodelogo.png">
+        </div>
+        <div class="card">
+            <h1>Express</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/express.png">
+        </div>
+        <div class="card">
+            <h1>MonogoDB</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/mongologo.png">
+        </div>
+        <div class="card">
+            <h1>Html</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/html.png">
+        </div>
+        <div class="card">
+            <h1>Css</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/css.png">
+        </div>
+        <div class="card">
+            <h1>Javascript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/js.png">
+        </div>
+        <div class="card">
+            <h1>Python</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui.</p>
+            <img src="images/python.png">
+        </div>
+    </div>
+    <!-- technology section ends here -->
+
+    <!-- about section starts -->
+    <section class="about-us center" id="about">
+        <div class="about-inner">
+            <div class="inner-1">
+                <h1 class="services" id="services"><span style="color: #fff;">A</span>bout <span style="color: #fff;">U</span>s</h1>
+                <h4 class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam explicabo eaque vitae nihil dolore aliquam nobis porro pariatur deserunt! Porro, quisquam hic quia expedita fugiat aut ducimus eaque deleniti vel dolorem officiis maiores provident ratione praesentium placeat. Dolores sapiente qui doloribus? Dolore qui facilis omnis totam maxime in alias error!</h4>
+            </div>
+            <div class="inner-2">
+                <img src="images/man.png" class="about-img">
+            </div>
+
+        </div>
+    </section>
+    <!-- about section ends here -->
+
+    <!-- contact us starts -->
+    <section class="contact-us" id="contact">
+        <h1 class="services" id="services"><span style="color: #fff;">C</span>ontact <span style="color: #fff;">U</span>s</h1> 
+        <div class="form-div center">
+            <label style="color: #fff;">Name</label>
+            <input type="text" class="input" placeholder="enter your name...">
+            <label style="color: #fff;">Email</label>
+            <input type="email" class="input" placeholder="enter your email...">
+            <label style="color: #fff;">Message</label>
+            <textarea class="input" style="height: 80px;" placeholder="enter your message..."></textarea>
+
+            <button class="start-btn center-block"><i class="fas fa-paper-plane"></i> Send</button>
+        </div>
+    </section>
+
+    <button id="scrollBtn" onclick="topScroll()" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer class="footer">
+        <div>
+            <h5>Tech Traversal</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>&copy 2022 Tech Traversal</p>
+        </div>
+        <div class="footer-second">
+            <p>Reach us at:</p>
+            <p>test@email.com</p>
+            <div class="icon-flex">
+                <a><i class="fab fa-facebook"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-instagram"></i></a>
+                <a><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
